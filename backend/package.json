@@ -1,0 +1,19 @@
+{
+  "name": "currency-app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "test": "PORT=3000 node index.js"
+  },
+  "dependencies": {
+    "request": "^2.45.0",
+    "body": "*",
+    "array-extended": "*"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
